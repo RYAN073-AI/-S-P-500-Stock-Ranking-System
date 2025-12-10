@@ -13,16 +13,38 @@ Performance Metrics: Detailed classification reports and accuracy scores
 
 
 **Limitations**
-Uses historical data (not real-time trading)
-Fundamental analysis only (no technical indicators)
-Simplified scoring system
-Educational purpose only - not financial advice
+
+1)Uses historical data (not real-time trading)
+
+2)Fundamental analysis only (no technical indicators)
+
+3)Simplified scoring system
+
+4)Educational purpose only - not financial advice
 
 **Future Enhancements**
-Add technical indicators (RSI, MACD, Bollinger Bands)
-Implement sector-specific thresholds
-Include sentiment analysis from news
-Build backtesting framework
-Create interactive dashboard
+1)Add technical indicators (RSI, MACD, Bollinger Bands)
+
+2)Implement sector-specific thresholds
+
+3)Include sentiment analysis from news
+
+4)Build backtesting framework
+
+5)Create interactive dashboard
+
+
+
+| Metric              | Criterion              | Points |
+|:--------------------|:-----------------------|:------:|
+| **Valuation**       | P/E Ratio < 25         |   +1   |
+| **Profitability**   | ROE > 15%              |   +1   |
+|                     | Profit Margin > 10%    |   +1   |
+| **Growth**          | Revenue Growth > 10%   |   +1   |
+|                     | 1Y Returns > 15%       |   +1   |
+| **Financial Health**| Debt/Equity < 100      |   +1   |
+|                     | Current Ratio > 1.5    |   +1   |
+
+
 **Data Source**
 All financial data is sourced from Yahoo Finance via the yfinance library.
