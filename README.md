@@ -23,6 +23,7 @@ Performance Metrics: Detailed classification reports and accuracy scores
 4)Educational purpose only - not financial advice
 
 **Future Enhancements**
+
 1)Add technical indicators (RSI, MACD, Bollinger Bands)
 
 2)Implement sector-specific thresholds
